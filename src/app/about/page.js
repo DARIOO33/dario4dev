@@ -19,13 +19,13 @@ export default function Page1({ fontclass }) {
                     About me
                 </div>
                 <div className={firaCode.className} style={{color:"white", fontSize:"1.1rem" ,fontWeight:"500" , width:"80%" , margin:" auto" , paddingTop:"2rem"}}>
-                Hey there! I'm Anwer Dario, a 
+                Hey there! I`m Anwer Dario, a 
                 skilled front-end web developer with over 
                 2 years of professional experience. I specialize
-                in HTML, CSS, and JavaScript, and I'm particularly
+                in HTML, CSS, and JavaScript, and I`m particularly
                  proficient in React.js and Next.js. I take pride in
                  my ability to tackle complex problems and find effective
-                  solutions. Let's create some amazing web experiences together!
+                  solutions. Let`s create some amazing web experiences together!
                 </div>
                
          <Link href="contact">

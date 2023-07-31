@@ -14,12 +14,12 @@ export default function Page1() {
             <div className="text-container">
                 <div className={"bigtitle white strong"}>
                     <h1 className={firaCode.className} style={{fontSize:"2.5rem"}}>
-                    Hello I’m <br /> Dario a front end web <span className='red'>developer</span> .
+                    Hello I`m <br /> Dario a front end web <span className='red'>developer</span> .
                     </h1>
                 </div>
                 <div className={"description white"}>
                     <p className={firaCode.className}>
-                I’m responsible for the user-facing aspects 
+                I`m responsible for the user-facing aspects 
                 of a website or web application. They use HTML, CSS, 
                 and JavaScript to create the layout, design, and functionality 
                 of a website.
@@ -43,7 +43,7 @@ export default function Page1() {
             <div className="text-container">
                 <div className={"bigtitle white strong"}>
                     <h1 className={firaCode.className} style={{fontSize:"2.5rem"}}>
-                    Hello I’m <br /> Dario a front end web <span className='red'>developer</span>
+                    Hello I`m <br /> Dario a front end web <span className='red'>developer</span>
                     </h1>
                 </div>
                
