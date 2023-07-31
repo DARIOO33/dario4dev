@@ -4,7 +4,7 @@ import Link from "next/link"
 import { Fira_Code } from 'next/font/google'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 
-export default function Pcard({ img, title }) {
+export default function Pcard({ img, title ,link}) {
     return (
         <div className="project-card">
             <div className="image">
@@ -17,7 +17,7 @@ export default function Pcard({ img, title }) {
                 {title}
             </div>
             <div className={firaCode.className + " visit red "}>
-                <Link className='  red' href="https://www.youtube.com/watch?v=LHzZ1yz0FII">
+                <Link className='  red' href={link} target="_blank">
                     Visit Website
                 </Link>
             </div>
