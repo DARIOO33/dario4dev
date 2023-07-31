@@ -12,7 +12,9 @@
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.12",
     "next": "13.4.12",
+    "nextjs-current-url": "^1.0.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-tooltip": "^5.19.0"
   }
 }

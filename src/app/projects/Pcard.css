@@ -1,0 +1,64 @@
+.project-card{
+    /* width: 40%; */
+    background-color: rgba(255, 255, 255, .05);
+    border-radius: .5rem;
+   
+}
+.image{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+.image img{
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
+.ptitle{
+    width: 88%;
+    margin: auto;
+    padding-top: .25rem;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 700;
+}
+.project-container{
+    margin-top: 5rem;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,25rem);
+    gap:5rem;
+    justify-content: center;
+    /* text-align: center; */
+}
+.visit{
+    text-align: center;
+    width: 30%;
+    /* border: 1px solid red; */
+    margin: auto;
+    font-weight: 0800;
+    margin-top: 1.5rem;
+    padding-bottom: .5rem;
+    font-size: 1.05rem;
+    z-index: 100;
+    color: white;
+    opacity: .99;
+
+
+    cursor: pointer;
+}
+
+.visit a{
+    text-decoration: none;
+    color: auto;
+    z-index: 101;
+}
+@media screen and (max-width:700px){
+    .project-container{
+        grid-template-columns: repeat(1,0.85fr);
+    }
+    .button{
+        margin-top: 2rem;
+    }
+}

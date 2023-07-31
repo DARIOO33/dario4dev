@@ -1,0 +1,36 @@
+.about-container{
+    display: flex;
+    width: 100%;
+    /* padding-top: 3rem; */
+    height: 100vh;
+    /* border: 1px solid red; */
+    align-items: center;
+
+}
+.imagee-container{
+    flex: 1;
+}
+.imagee-container img{
+    width: 20rem;
+    height: auto;
+}
+.text-container{
+    flex: 2;
+    text-align: center;
+}
+@media screen and (max-width : 900px){
+    .about-container{
+        display: block;
+    }.imagee-container{
+        text-align: center;
+    }
+    .text-container{
+        margin-top: 4rem;
+        /* border: 2px solid red; */
+        width: 90%;
+    }
+    .button{
+        padding-bottom: 4rem;
+    }
+}
+

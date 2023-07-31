@@ -1,0 +1,35 @@
+.cards-container{
+    display: grid;
+    /* gap: 1rem; */
+    grid-template-columns: repeat(3,1fr);
+    height: auto;
+    margin-top: 6rem;
+    /* border: 1px solid red; */
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:1000px) {
+    .cards-container{
+        text-align: center;
+        /* margin: auto; */
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card{
+        height: 17.5rem;
+        margin-top: 4.5rem ;
+    }
+}
+@media screen and (max-width:900px) {
+    .cards-container{
+        text-align: center;
+        /* margin: auto; */
+        
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card{
+        height: 17.5rem;
+        margin: 2rem auto ;
+    }
+}
