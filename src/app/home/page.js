@@ -36,6 +36,8 @@ export default function Page1() {
         <div className="phone-container">
         <div className="image-container">
                 <Image
+                placeholder="blur"	
+                loading="lazy"	
                 src={img}
                 alt='Dario web developer home content image'
                 />
