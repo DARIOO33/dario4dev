@@ -10,10 +10,10 @@ export default function Icon({img,direction,className}) {
     const currentRoute = usePathname();
   
     return (
-        <>
+        <div data-tooltip-id="my-tooltip" data-tooltip-content={direction} data-tooltip-place="left" >
 
 
-        <Link href={direction} data-tooltip-id="my-tooltip" data-tooltip-content={direction} data-tooltip-place="left" >
+        <Link href={direction} >
         <Tooltip id="my-tooltip" />
          <div className={className}>
                         <Image
@@ -22,6 +22,6 @@ export default function Icon({img,direction,className}) {
                             />
                     </div>
         </Link>
-        </>
+        </div>
     )
 };
