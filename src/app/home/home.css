@@ -25,8 +25,8 @@
     justify-content: center;
 }
 .image-container img{
-    width: 20rem;
-    height: auto;
+    /* width: 20rem; */
+    /* height: auto; */
 }
 .button{
    margin: auto;

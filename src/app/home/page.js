@@ -28,6 +28,11 @@ export default function Page1() {
             </div>
             <div className="image-container">
                 <Image
+                // placeholder="blur"
+                quality={80}
+                width={300}
+                height={300}
+                loading="lazy"	
                 src={img}
                 alt='Dario web developer home content image'
                 />
@@ -36,8 +41,8 @@ export default function Page1() {
         <div className="phone-container">
         <div className="image-container">
                 <Image
-                placeholder="blur"	
-                loading="lazy"	
+                height={225}
+                width={225}
                 src={img}
                 alt='Dario web developer home content image'
                 />
