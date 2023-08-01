@@ -11,10 +11,10 @@ export default function Icon({img,direction,className}) {
   
     return (
         <>
-        <Tooltip id="my-tooltip" />
 
 
         <Link href={direction} data-tooltip-id="my-tooltip" data-tooltip-content={direction} data-tooltip-place="left" >
+        <Tooltip id="my-tooltip" />
          <div className={className}>
                         <Image
                             src={img}
