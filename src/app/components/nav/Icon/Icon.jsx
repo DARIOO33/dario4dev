@@ -13,7 +13,8 @@ export default function Icon({img,direction,className}) {
         // <div>
 
 
-        <Link href={direction} >
+        <Link href={direction} legacyBehavior>
+            <a>
         {/* <Tooltip id="my-tooltip" /> */}
          <div className={className}>
                         <Image
@@ -21,6 +22,7 @@ export default function Icon({img,direction,className}) {
                             alt={"main page direction for dario web developer portfolio"}
                             />
                     </div>
+                    </a>
         </Link>
         // </div>
     )
