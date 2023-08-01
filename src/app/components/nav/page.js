@@ -2,7 +2,7 @@
 import Image from 'next/image'
 
 
-import Icon from './icon.js'
+import Icon from './Icon/Icon'
 import './nav.css'
 import home from '../../../assets/home.png'
 import profile from '../../../assets/about.png'
