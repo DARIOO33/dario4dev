@@ -14,8 +14,9 @@ export default function RootLayout({ children }) {
     
     <html lang="en">
       <body className={inter.className}>
+    <Nav/>
+
         <div className="zoom">
-<Nav/>
         <div className='container'>
         {children}
         </div>
