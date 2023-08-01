@@ -53,15 +53,15 @@ export default function Nav() {
             <div className="Nav-container">
            
                 <div className="bar">
-                   <Icon  img={home} direction="home" className={currentRoute === "/home" 
+                   <Icon  img={home} direction="home/" className={currentRoute === "/home" 
        ? "activenav" : "icon"}/>
-                   <Icon img={profile} direction="about"  className={currentRoute === "/about" 
+                   <Icon img={profile} direction="about/"  className={currentRoute === "/about" 
        ? "activenav" : "icon"}/>
-                   <Icon img={skills} direction="skills"  className={currentRoute === "/skills" 
+                   <Icon img={skills} direction="skills/"  className={currentRoute === "/skills" 
        ? "activenav" : "icon"}/>
-                   <Icon img={projects} direction="projects"  className={currentRoute === "/projects" 
+                   <Icon img={projects} direction="projects/"  className={currentRoute === "/projects" 
        ? "activenav" : "icon"}/>
-                   <Icon img={contact} direction="contact"  className={currentRoute === "/contact" 
+                   <Icon img={contact} direction="contact/"  className={currentRoute === "/contact" 
        ? "activenav" : "icon"}/>
                 </div>
             </div>

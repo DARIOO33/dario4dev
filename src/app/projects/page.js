@@ -4,9 +4,11 @@ import Project1 from '../../assets/project1.png'
 import Project2 from '../../assets/project2.png'
 import './projects.css'
 import Pcard from './Pcard.jsx'
+import Nav from '../components/nav/Nav'
 export default function Page1() {
     return (
         <div className='cont'>
+        {/* <Nav/> */}
             
 
        <h1 className={firaCode.className +  "  white center"} style={{fontSize :'1.75rem' ,marginTop:"3rem" , letterSpacing:".2ch"}}>

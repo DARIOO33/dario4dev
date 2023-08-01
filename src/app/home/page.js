@@ -1,12 +1,16 @@
+"use client"
 import { Fira_Code } from 'next/font/google'
 import Image from 'next/image'
 import img from '../../assets/me.png'
 import Link from 'next/link'
+import Nav from '../components/nav/Nav.jsx'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 import './home.css'
 export default function Page1() {
     return (
         <>
+
+
         <h1 className={firaCode.className + " title center"}>
             Portfolio V1
         </h1>
