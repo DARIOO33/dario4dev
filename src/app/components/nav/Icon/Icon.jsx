@@ -13,7 +13,7 @@ export default function Icon({img,direction,className}) {
         // <div>
 
 
-        <Link href={direction}>
+        <Link href={direction} shallow>
         {/* <Tooltip id="my-tooltip" /> */}
          <div className={className}>
                         <Image
