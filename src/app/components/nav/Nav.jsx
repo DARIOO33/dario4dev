@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image'
 
-import Loading from '../Loading'
 import Icon from './Icon/Icon'
 import './nav.css'
 import home from '../../../assets/home.png'
@@ -22,20 +21,7 @@ import { Fira_Code } from 'next/font/google'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 
 export default function Nav() {
-    if (typeof window !== 'undefined'){
-        const body = document.querySelector('body');
-    }
-    const [isLoading, setIsLoading] = useState(false);
-    const handleLinkClick = () => {
-        setIsLoading(true);
-        body.classList.add('overflow')
-
-        setTimeout(() => {
-          setIsLoading(false);
-        body.classList.remove('overflow')
-
-        }, 2000); // 2000ms = 2 seconds
-      };
+    
     function func() {
         document.querySelector('.menu').classList.toggle('active')
 
@@ -72,35 +58,35 @@ export default function Nav() {
             <div className="Nav-container">
 
                 <div className="bar">
-                    <Link href="home" onClick={handleLinkClick}>
+                    <Link href="home">
                         <div className={currentRoute === "/home"
                             ? "activenav" : "icon"} >
                             <AiFillHome />
                         </div>
                     </Link>
 
-                    <Link href="about" onClick={handleLinkClick}>
+                    <Link href="about">
                         <div className={currentRoute === "/about"
                             ? "activenav" : "icon"} >
                             <AiOutlineUser />
                         </div>
                     </Link>
 
-                    <Link href="skills" onClick={handleLinkClick}>
+                    <Link href="skills">
                         <div className={currentRoute === "/skills"
                             ? "activenav" : "icon"} >
                             <AiFillThunderbolt />
                         </div>
                     </Link>
 
-                    <Link href="projects" onClick={handleLinkClick}>
+                    <Link href="projects">
                         <div className={currentRoute === "/projects"
                             ? "activenav" : "icon"} >
                             <AiFillFolder />
                         </div>
                     </Link>
 
-                    <Link href="contact" onClick={handleLinkClick}>
+                    <Link href="contact">
                         <div className={currentRoute === "/contact"
                             ? "activenav" : "icon"} >
                             <AiFillMail />
@@ -111,7 +97,6 @@ export default function Nav() {
                   
                 </div>
             </div>
-            {isLoading && <Loading />}
         </>
     )
 };

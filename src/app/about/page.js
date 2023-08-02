@@ -14,7 +14,7 @@ export default function Page1({ fontclass }) {
                 alt='test'
                 />
             </div>
-            <div className="text-container">
+            <div className="text-containerr">
                 <div className={firaCode.className} style={{color:"white", fontSize:"2rem" ,fontWeight:"800"}}>
                     About me
                 </div>

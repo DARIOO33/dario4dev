@@ -14,7 +14,7 @@
     width: 20rem;
     height: auto;
 }
-.text-container{
+.text-containerr{
     flex: 2;
     text-align: center;
 }
@@ -24,7 +24,7 @@
     }.imagee-container{
         text-align: center;
     }
-    .text-container{
+    .text-containerr{
         margin-top: 4rem;
         /* border: 2px solid red; */
         width: 90%;

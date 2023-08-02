@@ -2,15 +2,20 @@
 import { Fira_Code } from 'next/font/google'
 import Image from 'next/image'
 import img from '../../assets/me.png'
+import { useState } from 'react'
 import Link from 'next/link'
 import Nav from '../components/nav/Nav.jsx'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 import './home.css'
+import { Suspense } from 'react'
+
 export default function Page1() {
+    
+      
     return (
         <>
-
-
+        
+        <Suspense>
         <h1 className={firaCode.className + " title center"}>
             Portfolio V1
         </h1>
@@ -65,6 +70,7 @@ export default function Page1() {
                 <button className={firaCode.className} style={{color:"white"}}>Projects</button>
                 </div>
                 </Link>
+                </Suspense>
        
         </>
     )
