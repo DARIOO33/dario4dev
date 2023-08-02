@@ -22,7 +22,9 @@ import { Fira_Code } from 'next/font/google'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 
 export default function Nav() {
-    const body = document.querySelector('body');
+    if (typeof window !== 'undefined'){
+        const body = document.querySelector('body');
+    }
     const [isLoading, setIsLoading] = useState(false);
     const handleLinkClick = () => {
         setIsLoading(true);
