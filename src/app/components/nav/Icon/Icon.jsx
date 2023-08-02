@@ -13,9 +13,10 @@ export default function Icon({img,direction,className}) {
         // <div>
 
 
+        // {/* <Tooltip id="my-tooltip" /> */}
         <Link href={direction} shallow>
-        {/* <Tooltip id="my-tooltip" /> */}
          <div className={className}>
+
                         <Image
                             src={img}
                             alt={"main page direction for dario web developer portfolio"}
