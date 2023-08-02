@@ -10,11 +10,11 @@ import skills from '../../../assets/skills.png'
 import projects from '../../../assets/projects.png'
 import contact from '../../../assets/contact.png'
 import Link from 'next/link'
-import { AiOutlineHome } from "react-icons/ai";
+import { AiFillHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
-import { AiOutlineThunderbolt } from "react-icons/ai";
-import { AiOutlineFolder } from "react-icons/ai";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiFillThunderbolt } from "react-icons/ai";
+import { AiFillFolder } from "react-icons/ai";
+import { AiFillMail } from "react-icons/ai";
 
 // import { useState } from 'react'
 import { usePathname } from 'next/navigation';
@@ -58,38 +58,38 @@ export default function Nav() {
             <div className="Nav-container">
 
                 <div className="bar">
-                    <Link href="home/">
+                    <Link href="home">
                         <div className={currentRoute === "/home"
                             ? "activenav" : "icon"} >
-                            <AiOutlineHome />
+                            <AiFillHome />
                         </div>
                     </Link>
 
-                    <Link href="about/">
+                    <Link href="about">
                         <div className={currentRoute === "/about"
                             ? "activenav" : "icon"} >
                             <AiOutlineUser />
                         </div>
                     </Link>
 
-                    <Link href="skills/">
+                    <Link href="skills">
                         <div className={currentRoute === "/skills"
                             ? "activenav" : "icon"} >
-                            <AiOutlineThunderbolt />
+                            <AiFillThunderbolt />
                         </div>
                     </Link>
 
-                    <Link href="projects/">
+                    <Link href="projects">
                         <div className={currentRoute === "/projects"
                             ? "activenav" : "icon"} >
-                            <AiOutlineFolder />
+                            <AiFillFolder />
                         </div>
                     </Link>
 
                     <Link href="contact/">
                         <div className={currentRoute === "/contact"
                             ? "activenav" : "icon"} >
-                            <AiOutlineMail />
+                            <AiFillMail />
                         </div>
                     </Link>
                    
