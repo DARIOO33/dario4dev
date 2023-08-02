@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 
-
+import Loading from '../Loading'
 import Icon from './Icon/Icon'
 import './nav.css'
 import home from '../../../assets/home.png'
@@ -16,12 +16,24 @@ import { AiFillThunderbolt } from "react-icons/ai";
 import { AiFillFolder } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
 
-// import { useState } from 'react'
+import { useState } from 'react'
 import { usePathname } from 'next/navigation';
 import { Fira_Code } from 'next/font/google'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 
 export default function Nav() {
+    const body = document.querySelector('body');
+    const [isLoading, setIsLoading] = useState(false);
+    const handleLinkClick = () => {
+        setIsLoading(true);
+        body.classList.add('overflow')
+
+        setTimeout(() => {
+          setIsLoading(false);
+        body.classList.remove('overflow')
+
+        }, 2000); // 2000ms = 2 seconds
+      };
     function func() {
         document.querySelector('.menu').classList.toggle('active')
 
@@ -58,35 +70,35 @@ export default function Nav() {
             <div className="Nav-container">
 
                 <div className="bar">
-                    <Link href="home">
+                    <Link href="home" onClick={handleLinkClick}>
                         <div className={currentRoute === "/home"
                             ? "activenav" : "icon"} >
                             <AiFillHome />
                         </div>
                     </Link>
 
-                    <Link href="about">
+                    <Link href="about" onClick={handleLinkClick}>
                         <div className={currentRoute === "/about"
                             ? "activenav" : "icon"} >
                             <AiOutlineUser />
                         </div>
                     </Link>
 
-                    <Link href="skills">
+                    <Link href="skills" onClick={handleLinkClick}>
                         <div className={currentRoute === "/skills"
                             ? "activenav" : "icon"} >
                             <AiFillThunderbolt />
                         </div>
                     </Link>
 
-                    <Link href="projects">
+                    <Link href="projects" onClick={handleLinkClick}>
                         <div className={currentRoute === "/projects"
                             ? "activenav" : "icon"} >
                             <AiFillFolder />
                         </div>
                     </Link>
 
-                    <Link href="contact/">
+                    <Link href="contact" onClick={handleLinkClick}>
                         <div className={currentRoute === "/contact"
                             ? "activenav" : "icon"} >
                             <AiFillMail />
@@ -97,6 +109,7 @@ export default function Nav() {
                   
                 </div>
             </div>
+            {isLoading && <Loading />}
         </>
     )
 };
