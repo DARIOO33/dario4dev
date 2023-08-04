@@ -1,6 +1,7 @@
 import { Fira_Code } from 'next/font/google'
 import Image from 'next/image'
 import img from '../../assets/me.png'
+import imgl from '../../assets/me2.png'
 import Link from 'next/link'
 import Nav from '../components/nav/Nav.jsx'
 const firaCode = Fira_Code({ subsets: ['latin'] })
@@ -29,14 +30,12 @@ export default function Homec(params) {
                 </div>
                 <div className="image-container">
                     <Image
-                        // placeholder="blur"
-                        quality={80}
+                        // quality={80}
                         width={300}
                         height={300}
-                        // loading="lazy"
                         src={img}
-                        placeholder="https://via.placeholder.com/100x100"
-                        blurDataURL="https://via.placeholder.com/100x100/gray"
+                        placeholder={imgl}
+                        blurDataURL={imgl}
                         alt='Dario web developer home content image'
                     />
                 </div>
