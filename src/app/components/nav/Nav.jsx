@@ -1,6 +1,5 @@
 "use client"
 import Image from 'next/image'
-
 import Icon from './Icon/Icon'
 import './nav.css'
 import home from '../../../assets/home.png'
@@ -14,7 +13,6 @@ import { AiOutlineUser } from "react-icons/ai";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { AiFillFolder } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
-
 import { useState } from 'react'
 import { usePathname } from 'next/navigation';
 import { Fira_Code } from 'next/font/google'
@@ -24,21 +22,14 @@ export default function Nav() {
     
     function func() {
         document.querySelector('.menu').classList.toggle('active')
-
         document.querySelector('body').classList.toggle('overflow')
     }
     function closemenu() {
-
         document.querySelector('.menu').classList.remove('active')
         document.querySelector('body').classList.remove('overflow')
-
-
-
     }
     const currentRoute = usePathname();
     console.log('current route =  ' + currentRoute);
-
-    // const [active,setActive] = useState(false)
     return (
         <>
             <div className='menu-container' onClick={func}>
