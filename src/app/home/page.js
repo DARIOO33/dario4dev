@@ -1,23 +1,15 @@
-"use client"
-import { useState } from 'react'
+// "use client"
 import './home.css'
-import { Suspense } from 'react'
+import { Suspense  , lazy} from 'react'
 import Loading from '../components/Loader/Loading.jsx'
 import Homec from './homec'
 export default function Page1() {
-    const [loading, setLoading] = useState(true);
-
-
-    setTimeout(() => {
-        setLoading(false);
-
-    }, 2500);
-
+  
     return (
         <>
               <Suspense fallback={<Loading />}>
-      <Homec />
-    </Suspense>
+                        <Homec />
+                </Suspense>
 
 
         </>
