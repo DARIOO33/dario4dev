@@ -10,6 +10,9 @@
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
   }
+  .overflow{
+    overflow: hidden;
+  }
   .loader::after,
   .loader::before {
     content: '';  

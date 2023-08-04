@@ -15,9 +15,10 @@ export default function Page1() {
 
     return (
         <>
-            {loading && <div><Loading/></div>}
-            {!loading && <div><Homec/></div>}
-            
+              <Suspense fallback={<Loading />}>
+      <Homec />
+    </Suspense>
+
 
         </>
     )
