@@ -1,6 +1,8 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Nav from './components/nav/Nav'
+import { Suspense} from 'react'
+import Loading from './components/Loader/Loading'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -17,7 +19,7 @@ export default function RootLayout({ children }) {
 
         <div className="zoom">
         <div className='container'>
-        {children}
+        <Suspense fallback={<Loading />}>{children}</Suspense>
         </div>
         </div>
 

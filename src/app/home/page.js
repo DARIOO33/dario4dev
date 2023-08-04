@@ -1,15 +1,14 @@
 // "use client"
 import './home.css'
-import { Suspense  , lazy} from 'react'
 import Loading from '../components/Loader/Loading.jsx'
 import Homec from './homec'
 export default function Page1() {
   
     return (
         <>
-              <Suspense fallback={<Loading />}>
+              {/* <Suspense fallback={<Loading />}> */}
                         <Homec />
-                </Suspense>
+                {/* </Suspense> */}
 
 
         </>
