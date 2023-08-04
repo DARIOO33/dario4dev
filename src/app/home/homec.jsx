@@ -1,3 +1,4 @@
+"use client"
 import { Fira_Code } from 'next/font/google'
 import Image from 'next/image'
 import img from '../../assets/me.png'
@@ -7,6 +8,7 @@ import Nav from '../components/nav/Nav.jsx'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 
 export default function Homec(params) {
+    
     return (
         <>
         <h1 className={firaCode.className + " title center"}>
@@ -30,12 +32,12 @@ export default function Homec(params) {
                 </div>
                 <div className="image-container">
                     <Image
-                        // quality={80}
+                        quality={80}
                         width={300}
                         height={300}
                         src={img}
-                        placeholder={imgl}
-                        blurDataURL={imgl}
+                        placeholder="blur"
+                        loading='lazy'
                         alt='Dario web developer home content image'
                     />
                 </div>
