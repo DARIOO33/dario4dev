@@ -33,8 +33,10 @@ export default function Homec(params) {
                         quality={80}
                         width={300}
                         height={300}
-                        loading="lazy"
+                        // loading="lazy"
                         src={img}
+                        placeholder="https://via.placeholder.com/100x100"
+                        blurDataURL="https://via.placeholder.com/100x100/gray"
                         alt='Dario web developer home content image'
                     />
                 </div>
