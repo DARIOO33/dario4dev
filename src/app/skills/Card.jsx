@@ -12,7 +12,7 @@ export default function Card({img,title,details}) {
                     alt ="Image for card"
                     src={img}
                     placeholder="blur"
-                        loading='lazy'
+                    loading='lazy'
                     /> 
                 </div>
                 <div className={firaCode.className +" title white center"} style={{fontSize:"1.25rem" , letterSpacing:'0.1ch' , marginTop:"2rem"}}>

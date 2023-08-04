@@ -11,6 +11,9 @@ export default function Pcard({ img, title ,link}) {
                 <Image
                     alt='project image display'
                     src={img}
+                    placeholder="blur"
+                    loading='lazy'
+                    quality={50}
                 />
             </div>
             <div className={firaCode.className + " ptitle"}>
