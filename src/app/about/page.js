@@ -12,6 +12,9 @@ export default function Page1({ fontclass }) {
                 <Image
                 src={img}
                 alt='test'
+                placeholder="blur"
+                        loading='lazy'
+                        quality={80}
                 />
             </div>
             <div className="text-containerr">

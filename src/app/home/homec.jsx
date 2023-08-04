@@ -48,6 +48,8 @@ export default function Homec(params) {
                         height={225}
                         width={225}
                         src={img}
+                        placeholder="blur"
+                        loading='lazy'
                         alt='Dario web developer home content image'
                     />
                 </div>
