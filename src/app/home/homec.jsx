@@ -33,7 +33,7 @@ export default function Homec(params) {
                 <div className="image-container">
                     <Image
                         quality={80}
-                        width={300}
+                      
                         height={300}
                         src={img}
                         placeholder="blur"
@@ -45,8 +45,7 @@ export default function Homec(params) {
             <div className="phone-container">
                 <div className="image-container">
                     <Image
-                        height={225}
-                        width={225}
+                       
                         src={img}
                         placeholder="blur"
                         loading='lazy'

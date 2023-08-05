@@ -11,8 +11,11 @@
     flex: 1;
 }
 .imagee-container img{
-    width: 20rem;
+    width: 70%;
+    margin: auto;
+    margin-top: 4rem;
     height: auto;
+    text-align: center;
 }
 .text-containerr{
     flex: 2;
@@ -28,6 +31,7 @@
         margin-top: 4rem;
         /* border: 2px solid red; */
         width: 90%;
+        margin: auto;
     }
     .button{
         padding-bottom: 4rem;

@@ -19,7 +19,9 @@ import { Fira_Code } from 'next/font/google'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 
 export default function Nav() {
-    
+    const handleclick = () =>{
+        console.log("clicked");
+    }
     function func() {
         document.querySelector('.menu').classList.toggle('active')
         document.querySelector('body').classList.toggle('overflow')
@@ -49,35 +51,35 @@ export default function Nav() {
             <div className="Nav-container">
 
                 <div className="bar">
-                    <Link href="home">
+                    <Link href="home" onClick={handleclick}>
                         <div className={currentRoute === "/home"
                             ? "activenav" : "icon"} >
                             <AiFillHome />
                         </div>
                     </Link>
 
-                    <Link href="about">
+                    <Link href="about" onClick={handleclick}>
                         <div className={currentRoute === "/about"
                             ? "activenav" : "icon"} >
                             <AiOutlineUser />
                         </div>
                     </Link>
 
-                    <Link href="skills">
+                    <Link href="skills" onClick={handleclick}>
                         <div className={currentRoute === "/skills"
                             ? "activenav" : "icon"} >
                             <AiFillThunderbolt />
                         </div>
                     </Link>
 
-                    <Link href="projects">
+                    <Link href="projects"onClick={handleclick}>
                         <div className={currentRoute === "/projects"
                             ? "activenav" : "icon"} >
                             <AiFillFolder />
                         </div>
                     </Link>
 
-                    <Link href="contact">
+                    <Link href="contact" onClick={handleclick}>
                         <div className={currentRoute === "/contact"
                             ? "activenav" : "icon"} >
                             <AiFillMail />

@@ -6,7 +6,7 @@ const firaCode = Fira_Code({ subsets: ['latin'] })
 export default function Card({img,title,details}) {
     return (
         <>
-            <div className="card" style={{width:"80%" , textAlign:"center"  }}>
+            <div className="card">
                 <div className="logo">
                     <Image
                     alt ="Image for card"
@@ -15,10 +15,10 @@ export default function Card({img,title,details}) {
                     loading='lazy'
                     /> 
                 </div>
-                <div className={firaCode.className +" title white center"} style={{fontSize:"1.25rem" , letterSpacing:'0.1ch' , marginTop:"2rem"}}>
+                <div className={firaCode.className +" title white center"}>
                     {title}
                 </div>
-                <div className="details red" style={{marginTop:"2rem"}}>
+                <div className="details red">
                    {details}
                 </div>
             </div>
