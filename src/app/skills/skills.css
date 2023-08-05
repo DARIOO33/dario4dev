@@ -14,20 +14,7 @@
     margin-top: 1.5rem;
 }
 
-@media screen and (max-width:1000px) {
-    .cards-container{
-        text-align: center;
-        /* margin: auto; */
-        grid-template-columns: repeat(2,1fr);
-    }
-    .card{
-        height: 17.5rem;
-        margin: auto;
-        margin-top: 4.5rem ;
-        width: 80%;
-    }
-    
-}
+
 @media screen and (max-width:900px) {
     .cards-container{
         text-align: center;
