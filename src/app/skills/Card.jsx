@@ -1,4 +1,5 @@
 import './card.css'
+import './skills.css'
 import Image from 'next/image'
 import { Fira_Code } from 'next/font/google'
 const firaCode = Fira_Code({ subsets: ['latin'] })
