@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Fira_Code } from 'next/font/google'
 import './about.css'
 import Link from 'next/link'
+import OutlineButton from '../components/Buttons/OutlineButton'
 import img from '../../assets/abouti.png'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 export default function Page1({ fontclass }) {
@@ -32,9 +33,10 @@ export default function Page1({ fontclass }) {
                 </div>
                
          <Link href="contact">
-                 <div className="button" style={{marginTop:"1rem" ,marginLeft:"0rem", textAlign:"center"}}>
-                <button className={firaCode.className} style={{color:"white" , backgroundColor:"transparent" , border:".25rem solid red" , fontSize:'1.5rem' , padding:".5rem 2rem" , borderRadius:".75rem"}}>Hire Me</button>
-                </div>
+                 <div className='btn' style={{marginTop:"5%" }}>
+
+                <OutlineButton text="Hire Me"/>
+                 </div>
                 </Link>
             </div>
         </div>

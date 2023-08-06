@@ -1,0 +1,15 @@
+button{
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: transparent;
+    border: .25rem solid red;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.wh{
+    padding: .5rem 4rem;
+    border-radius: 1.5rem;
+
+}

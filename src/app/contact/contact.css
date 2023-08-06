@@ -1,0 +1,25 @@
+.contact-container{
+    margin: auto;
+    margin-top: 2rem;
+    width: 100%;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.contact-container p{
+    margin:1.5rem auto;
+    text-align:center;
+
+}
+.contact-container p input{
+    width: 50%;
+    color: white;
+    background-color: rgba(255, 255, 255, .1);
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: .75rem;
+}
+.contact-container p input::placeholder{
+    color: white;
+    opacity: .7;
+}
