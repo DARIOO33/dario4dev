@@ -1,4 +1,4 @@
-button{
+button {
     padding: .5rem 2rem;
     border-radius: 1rem;
     border: none;
@@ -7,9 +7,22 @@ button{
     color: white;
     font-weight: 600;
     font-size: 1.5rem;
+    cursor: pointer;
 }
-.wh{
+
+.wh {
     padding: .5rem 4rem;
     border-radius: 1.5rem;
+
+}
+
+button:active {
+    background-color: rgba(255, 100, 100, 0.1);
+}
+
+@media screen and (max-width:900px) {
+    button{
+        
+    }
 
 }
