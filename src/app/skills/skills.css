@@ -22,19 +22,8 @@
         
         grid-template-columns: repeat(1,1fr);
     }
-    .card{
-        height: auto;
-        width: 80%;
-        padding-bottom: 2.5rem;
-        margin:2rem auto ;
-        
-    }
-    .card .title{
-        text-align: center;
-        /* width: 80%; */
-        margin: auto;
-        font-size: 100%;
-    }
+   
+   
    
     
     

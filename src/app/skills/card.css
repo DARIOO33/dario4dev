@@ -1,20 +1,40 @@
-.card{
-    background-color: rgb(255, 255, 255,0.1);
+.card {
+    background-color: rgb(255, 255, 255, 0.1);
     height: 100%;
     border-radius: 1rem;
     cursor: pointer;
     padding: 1rem;
     transition: .3s;
-    
+
 }
 
-.logo{
+.logo {
     width: 60%;
     margin: auto;
     margin-top: 2rem;
 }
-.logo img{
+
+.logo img {
     width: 6rem;
     height: auto;
-    
+
+}
+
+@media screen and (max-width:900px) {
+
+    .card {
+        height: auto;
+        width: 80%;
+        padding-bottom: 2.5rem;
+        margin: auto;
+        margin-top: 2rem;
+
+    }
+
+    .card .title {
+        text-align: center;
+        /* width: 80%; */
+        margin: auto;
+        font-size: 100%;
+    }
 }
