@@ -25,8 +25,13 @@ export default function Nav() {
     function func() {
         document.querySelector('.menu').classList.toggle('active')
         document.querySelector('body').classList.toggle('overflow')
+        document.querySelector('.close').classList.toggle('active')
+        document.querySelector('.menu-container').classList.toggle('active')
     }
     function closemenu() {
+        document.querySelector('.close').classList.toggle('active')
+        document.querySelector('.menu-container').classList.toggle('active')
+
         document.querySelector('.menu').classList.remove('active')
         document.querySelector('body').classList.remove('overflow')
     }
@@ -45,6 +50,9 @@ export default function Nav() {
                 <div className="line"></div>
                 <div className="line"></div>
                 <div className="line"></div>
+            </div>
+            <div className="close" onClick={closemenu}>
+                X
             </div>
             <div className="menu">
                 <ul>
