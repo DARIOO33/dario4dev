@@ -107,12 +107,16 @@
 
     
 }
+.close{
+    display: none;
+}
 
 .menu{
     display: none;
 }
 @media screen and (max-width:900px) {
     .close{
+        display: block;
         position: fixed;
         margin: 2.5rem 0.5rem;
         right: -2rem;
