@@ -30,6 +30,13 @@ export default function Nav() {
         document.querySelector('.menu').classList.remove('active')
         document.querySelector('body').classList.remove('overflow')
     }
+    function check(){
+        
+    }
+    function link(){
+        check()
+        closemenu()
+    }
     const currentRoute = usePathname();
     console.log('current route =  ' + currentRoute);
     return (
@@ -41,11 +48,11 @@ export default function Nav() {
             </div>
             <div className="menu">
                 <ul>
-                    <li><Link href="home" onClick={closemenu} className={firaCode.className}>Home</Link></li>
-                    <li><Link href="about" onClick={closemenu} className={firaCode.className}>About</Link></li>
-                    <li><Link href="skills" onClick={closemenu} className={firaCode.className}>Skills</Link></li>
-                    <li><Link href="projects" onClick={closemenu} className={firaCode.className}>Projects</Link></li>
-                    <li><Link href="contact" onClick={closemenu} className={firaCode.className}>Contact</Link></li>
+                    <li><Link href="home" onClick={link} className={firaCode.className}>Home</Link></li>
+                    <li><Link href="about" onClick={link} className={firaCode.className}>About</Link></li>
+                    <li><Link href="skills" onClick={link} className={firaCode.className}>Skills</Link></li>
+                    <li><Link href="projects" onClick={link} className={firaCode.className}>Projects</Link></li>
+                    <li><Link href="contact" onClick={link} className={firaCode.className}>Contact</Link></li>
                 </ul>
             </div>
             <div className="Nav-container">

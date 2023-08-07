@@ -45,10 +45,10 @@ export default function Homec(params) {
             <div className="phone-container">
                 <div className="image-container">
                     <Image
-                       
+                        priority
                         src={img}
                         placeholder="blur"
-                        loading='lazy'
+                        // loading='lazy'
                         alt='Dario web developer home content image'
                     />
                 </div>

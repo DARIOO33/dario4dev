@@ -11,10 +11,12 @@ export default function Page1({ fontclass }) {
         <div className="about-container">
             <div className="imagee-container">
                 <Image
+                        priority
+
                 src={img}
                 alt='test'
                 placeholder="blur"
-                        loading='lazy'
+                        // loading='lazy'
                         quality={80}
                 />
             </div>
