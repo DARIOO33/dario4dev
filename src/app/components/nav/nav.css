@@ -115,7 +115,7 @@
         height: 100vh;
         z-index: 100;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         /* display: none; */
         left: -100%;

@@ -2,6 +2,7 @@ button {
     padding: .5rem 2rem;
     border-radius: 1rem;
     border: none;
+    z-index: 100;
     background-color: transparent;
     border: .25rem solid red;
     color: white;
