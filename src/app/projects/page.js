@@ -15,7 +15,7 @@ export default function Page1() {
             Projects
         </h1>
         <div className="project-container">
-            <Pcard img={Project1} title="rent car website" link="https://rentcar-project.netlify.app"/>
+            <Pcard img={Project1} title="rent car website" link="https://rentcarwebsite.netlify.app"/>
             <Pcard img={Project2} title="Logitech Promotion Website" link="https://logitechbetavs.netlify.app"/>
 
             
