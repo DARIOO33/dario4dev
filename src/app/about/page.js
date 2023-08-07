@@ -16,7 +16,6 @@ export default function Page1({ fontclass }) {
                 src={img}
                 alt='test'
                 placeholder="blur"
-                        // loading='lazy'
                         quality={80}
                 />
             </div>

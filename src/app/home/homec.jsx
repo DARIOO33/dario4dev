@@ -48,7 +48,6 @@ export default function Homec(params) {
                         priority
                         src={img}
                         placeholder="blur"
-                        // loading='lazy'
                         alt='Dario web developer home content image'
                     />
                 </div>
