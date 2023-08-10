@@ -3,7 +3,17 @@ import Input from "./Input.jsx"
 import './contact.css'
 export default function Page1() {
     async function handeOnSubmit(e){
-        e.preventDefault()
+        e.preventDefault();
+        const formData = {}
+        Array.from(e.currentTarget.elements).forEach(field => {
+            if (!field.name) return;
+            formData[field.name] = field.value
+        }),
+        fetch('api/mail' , {
+            method:'post',
+            body:JSON.stringify(formData)
+        })
+        console.log(formData);
 
     }
    
@@ -13,10 +23,10 @@ export default function Page1() {
             Contact
         </h1>
         <div className="contact-container">
-            <Input type="text" placeholder="Your Name"/>
-            <Input type="email" placeholder="Your Email"/>
+            <Input type="text" placeholder="Your Name" name="name"/>
+            <Input type="email" placeholder="Your Email" name="email"/>
             <p>
-            <textarea id="html" type="text" placeholder="Your Message"  rows={7} maxLength={400}/>
+            <textarea id="html" type="text" placeholder="Your Message" name="message"  rows={7} maxLength={400}/>
             </p>
         </div>
         <div className="btnn" style={{textAlign:"center" , paddingTop:'1rem'}}>

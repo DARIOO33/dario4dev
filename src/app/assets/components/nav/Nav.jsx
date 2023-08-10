@@ -56,7 +56,7 @@ export default function Nav() {
                     <li><Link href="about" onClick={link} className={firaCode.className}>About</Link></li>
                     <li><Link href="skills" onClick={link} className={firaCode.className}>Skills</Link></li>
                     <li><Link href="projects" onClick={link} className={firaCode.className}>Projects</Link></li>
-                    <li><Link href="contact" onClick={link} className={firaCode.className}>Contact</Link></li>
+                    {/* <li><Link href="contact" onClick={link} className={firaCode.className}>Contact</Link></li> */}
                 </ul>
             </div>
             <div className="Nav-container">
@@ -90,12 +90,12 @@ export default function Nav() {
                         </div>
                     </Link>
 
-                    <Link href="contact" onClick={handleclick}>
+                    {/* <Link href="contact" onClick={handleclick}>
                         <div className={currentRoute === "/contact"
                             ? "activenav" : "icon"} >
                             <AiFillMail />
                         </div>
-                    </Link>
+                    </Link> */}
                    
          
                   
