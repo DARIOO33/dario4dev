@@ -1,10 +1,9 @@
 "use client"
 import { Fira_Code } from 'next/font/google'
 import Image from 'next/image'
-import img from '../../assets/me.png'
-import imgl from '../../assets/me2.png'
+import img from './../assets/me.png'
+import imgl from './../assets/me2.png'
 import Link from 'next/link'
-import Nav from '../components/nav/Nav.jsx'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 
 export default function Homec(params) {

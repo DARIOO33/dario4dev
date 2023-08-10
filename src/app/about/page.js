@@ -2,8 +2,8 @@ import Image from 'next/image'
 import { Fira_Code } from 'next/font/google'
 import './about.css'
 import Link from 'next/link'
-import OutlineButton from '../components/Buttons/OutlineButton'
-import img from '../../assets/abouti.png'
+import OutlineButton from './../assets/components/Buttons/OutlineButton'
+import img from './../assets/abouti.png'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 export default function Page1({ fontclass }) {
     return (

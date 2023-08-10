@@ -1,9 +1,9 @@
 import { Fira_Code } from 'next/font/google'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 import Card from './Card.jsx'
-import ui from '../../assets/user-experience.png'
-import web from '../../assets/html.png'
-import graphic from '../../assets/curve.png'
+import ui from '../assets/user-experience.png'
+import web from '../assets/html.png'
+import graphic from '../assets/curve.png'
 import './skills.css'
 export default function Page1() {
     return (

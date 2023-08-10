@@ -1,10 +1,9 @@
 import { Fira_Code } from 'next/font/google'
 const firaCode = Fira_Code({ subsets: ['latin'] })
-import Project1 from '../../assets/project1.png'
-import Project2 from '../../assets/project2.png'
+import Project1 from '../assets/project1.png'
+import Project2 from '../assets/project2.png'
 import './projects.css'
 import Pcard from './Pcard.jsx'
-import Nav from '../components/nav/Nav'
 export default function Page1() {
     return (
         <div className='cont'>

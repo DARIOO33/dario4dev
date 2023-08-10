@@ -2,11 +2,7 @@
 import Image from 'next/image'
 import Icon from './Icon/Icon'
 import './nav.css'
-import home from '../../../assets/home.png'
-import profile from '../../../assets/about.png'
-import skills from '../../../assets/skills.png'
-import projects from '../../../assets/projects.png'
-import contact from '../../../assets/contact.png'
+
 import Link from 'next/link'
 import { AiFillHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
