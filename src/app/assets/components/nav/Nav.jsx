@@ -15,7 +15,7 @@ import { Fira_Code } from 'next/font/google'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 
 export default function Nav() {
-    const handleclick = () =>{
+    const handleclick = () => {
         console.log("clicked");
     }
     function func() {
@@ -31,12 +31,13 @@ export default function Nav() {
         document.querySelector('.menu').classList.remove('active')
         document.querySelector('body').classList.remove('overflow')
     }
-    function check(){
-        
+    function check() {
+
     }
-    function link(){
+    function link() {
         check()
         closemenu()
+
     }
     const currentRoute = usePathname();
     console.log('current route =  ' + currentRoute);
@@ -83,7 +84,7 @@ export default function Nav() {
                         </div>
                     </Link>
 
-                    <Link href="projects"onClick={handleclick}>
+                    <Link href="projects" onClick={handleclick}>
                         <div className={currentRoute === "/projects"
                             ? "activenav" : "icon"} >
                             <AiFillFolder />
@@ -96,9 +97,9 @@ export default function Nav() {
                             <AiFillMail />
                         </div>
                     </Link> */}
-                   
-         
-                  
+
+
+
                 </div>
             </div>
         </>

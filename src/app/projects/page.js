@@ -2,6 +2,7 @@ import { Fira_Code } from 'next/font/google'
 const firaCode = Fira_Code({ subsets: ['latin'] })
 import Project1 from '../assets/project1.png'
 import Project2 from '../assets/project2.png'
+import Link from 'next/link'
 import './projects.css'
 import Pcard from './Pcard.jsx'
 export default function Page1() {
@@ -21,8 +22,9 @@ export default function Page1() {
         </div>
         <div className={firaCode.className + " button"}>
             <button>
-                
+                <Link href="works">
                 See More
+                </Link>
             </button>
         </div>
     
