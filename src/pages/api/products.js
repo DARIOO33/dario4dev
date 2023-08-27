@@ -50,12 +50,12 @@ const array = [
         "category": "sport"
     },
     {
-        "id": 9,
+        "id": 8,
         "name": "Fashion Stainless Steel Men",
         "description": "Fashion Stainless Steel Men Curb Cuban Chain Bracelet Women Bracelet On Hand For Couple Unisex Wrist Hand Jewelry Gift Party.",
         "price": 9,
         "category": "fashion"
-    },
+    }
 ]
 export default function handler(req, res) {
     res.status(200).json(array)
