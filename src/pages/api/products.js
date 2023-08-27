@@ -5,7 +5,7 @@ const array = [
         "description": "Envision your triumph with the MSI MAG342CQR Curved Gaming monitor. With a 3440x1440 resolution, 144Hz refresh rate, and 1ms response time panel, the MAG342CQR provides the competitive edge you need to defeat your opponents. Equipped with adaptive sync, this monitor can match the display's refresh rate with your GPU for ultra-smooth gameplay. With all the latest technologies built-in, the MSI Curved Gaming monitor ensures you hit your mark for competitive play.",
         "price": "369.99",
         "category": "electronics",
-        "images": ["msi.png", "msi2.png"]
+        "images": ["msi", "msi2"]
 
     },
     {
@@ -14,7 +14,7 @@ const array = [
         "description": "This is another product.",
         "price": 69,
         "category": "electronics",
-        "images": ["headset.png", "headset2.png"]
+        "images": ["headset", "headset2"]
 
     },
     {
