@@ -14,7 +14,7 @@ const array = [
         "description": "This is another product.",
         "price": 69,
         "category": "electronics",
-        "images": [headset, "headset2"]
+        "images": ["headset", "headset2"]
 
     },
     {
