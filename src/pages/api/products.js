@@ -31,38 +31,24 @@ const array = [
     },
     {
         "id": 4,
-        "name": "Shoes For Men",
-        "description": "This is another product.",
-        "price": 140,
-        "category": "fashion"
+        "name": "Nike Shoes for men",
+        "description": "The Air Jordan 1 High 85 “Black/Red” is the modern re-issue of an original colorway of Michael Jordan’s first signature shoe. The Jordan 1 High ‘85 debuted in 2020 as an alternate version of the retro basketball shoe that’s based on its original silhouette from 1985. The model has been released in several vintage-inspired colorways over the past few years, including this “Black/White” style that brings back one of the Jordan 1’s most popular, albeit somewhat rare colorways. Details specific to the original Jordan 1 from ‘85 are found throughout the design, including accurate-to-original panel shapes, and texture on the rubber midsole. The shoe features a white leather base with black leather overlays and Swoosh branding. A white “Wings” logo is found on the collar and “Nike Air” branding appears on the tongue tag. Release date: February 15, 2023",
+        "price": 309,
+        "category": "fashion",
+        "images": ["https://res.cloudinary.com/dizjoy6v5/image/upload/v1693231025/ecommerce/Nike_kcwkav.png",
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1693231033/ecommerce/nike2_ttgqku.png"]
+
+
     },
     {
         "id": 5,
         "name": "Gaming Mouse Razer",
-        "description": "This is another product.",
+        "description": "High-Precision 16,000 DPI Optical Sensor: Offers on-the-fly sensitivity adjustment through dedicated DPI buttons (reprogrammable) for gaming. Ridged, Rubberized Scroll Wheel for Maximum Accuracy: Small, tactile bumps increases grip and allows for more controlled scrolling in high-stakes gaming situations.",
         "price": 110,
-        "category": "electronics"
-    },
-    {
-        "id": 6,
-        "name": "Gym Equipement",
-        "description": "This is another product.",
-        "price": 200,
-        "category": "sport"
-    },
-    {
-        "id": 7,
-        "name": "360 Camera",
-        "description": "This is another product.",
-        "price": 599,
-        "category": "sport"
-    },
-    {
-        "id": 8,
-        "name": "Fashion Stainless Steel Men",
-        "description": "Fashion Stainless Steel Men Curb Cuban Chain Bracelet Women Bracelet On Hand For Couple Unisex Wrist Hand Jewelry Gift Party.",
-        "price": 9,
-        "category": "fashion"
+        "category": "electronics",
+        "images": ["https://res.cloudinary.com/dizjoy6v5/image/upload/v1693231343/ecommerce/razer_2_n4hgq3.png",
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1693231368/ecommerce/razer_1_vp563m.png"]
+
     }
 ]
 export default function handler(req, res) {
