@@ -1,3 +1,4 @@
+import img from '../../app/assets/me2.png'
 const array = [
     {
         "id": 1,
@@ -14,7 +15,7 @@ const array = [
         "description": "This is another product.",
         "price": 69,
         "category": "electronics",
-        "images": ["headset", "headset2"]
+        "images": [img, "headset2"]
 
     },
     {
