@@ -11,8 +11,8 @@ const array = [
     },
     {
         "id": 2,
-        "name": "Bluetooth Headphones",
-        "description": "This is another product.",
+        "name": "Bluetooth Headset",
+        "description": "JBL PURE BASS SOUND: For over 70 years, JBL has engineered the precise, impressive sound found in big venues around the world. These headphones reproduce that same JBL sound, punching out bass that’s both deep and powerful.",
         "price": 69,
         "category": "electronics",
         "images": ["https://res.cloudinary.com/dizjoy6v5/image/upload/v1693216050/ecommerce/headset2_f1gp6k.png",
@@ -21,10 +21,13 @@ const array = [
     },
     {
         "id": 3,
-        "name": "Weight For Training",
-        "description": "This is another product.",
+        "name": "Dumbbell for gym",
+        "description": "Weight training dumbbells made of best quality rubber. ${<br/>} A combination of professional dumbbells for the perfect workout & can be used in home or in gym <br/> Long lasting & durable material.",
         "price": 225,
-        "category": "sport"
+        "category": "sport",
+        "images": ["https://res.cloudinary.com/dizjoy6v5/image/upload/v1693218719/ecommerce/dumbell_2_ffmfsv.png",
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1693218708/ecommerce/dumbell_1_dcicku.png"]
+
     },
     {
         "id": 4,
