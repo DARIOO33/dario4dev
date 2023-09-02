@@ -22,7 +22,7 @@ const array = [
     {
         "id": 3,
         "name": "Dumbbell for gym",
-        "description": "Weight training dumbbells made of best quality rubber. \n ${\n} A combination of professional dumbbells for the perfect workout & can be used in home or in gym <br/> Long lasting & durable material.",
+        "description": "Weight training dumbbells made of best quality rubber. \n  A combination of professional dumbbells for the perfect workout & can be used in home or in gym <br/> Long lasting & durable material.",
         "price": 225,
         "category": "sport",
         "images": ["https://res.cloudinary.com/dizjoy6v5/image/upload/v1693218719/ecommerce/dumbell_2_ffmfsv.png",
