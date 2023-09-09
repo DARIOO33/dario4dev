@@ -49,7 +49,67 @@ const array = [
         "images": ["https://res.cloudinary.com/dizjoy6v5/image/upload/v1693231343/ecommerce/razer_2_n4hgq3.png",
             "https://res.cloudinary.com/dizjoy6v5/image/upload/v1693231368/ecommerce/razer_1_vp563m.png"]
 
-    }
+    },
+    {
+        id: 6,
+        name: "Samsung 4K Smart TV",
+        description:
+            "Experience immersive entertainment with the Samsung 4K Smart TV. Enjoy stunning 4K resolution, vibrant colors, and access to popular streaming services. With built-in voice control, you can easily navigate your favorite content.",
+        price: 599.99,
+        category: "electronics",
+        images: [
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1694264059/ecommerce/samsung_2_zqdzms.png",
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1694264042/ecommerce/samsung_1_csrurq.png",
+        ],
+    },
+    {
+        id: 7,
+        name: "Wireless Bluetooth Speaker",
+        description:
+            "Take your music anywhere with this wireless Bluetooth speaker. It delivers high-quality sound and has a long-lasting battery. Perfect for outdoor adventures and indoor gatherings.",
+        price: 49.95,
+        category: "electronics",
+        images: [
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1694264103/ecommerce/speakers_1_xn1x6v.png",
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1694264093/ecommerce/speakers_2_jv0t1x.png",
+        ],
+    },
+    {
+        id: 8,
+        name: "Yoga Mat",
+        description:
+            "Achieve inner peace and flexibility with this high-quality yoga mat. It's designed for comfort and durability, making it the perfect companion for your yoga practice.",
+        price: 29.99,
+        category: "sports",
+        images: [
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1694264182/ecommerce/yoga_1_tyluvq.png",
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1694264179/ecommerce/yoga_2_pygr2y.png",
+        ],
+    },
+    {
+        id: 9,
+        name: "Leather Wallet",
+        description:
+            "Elevate your style with this genuine leather wallet. It features multiple card slots, a spacious bill compartment, and a sleek design. A perfect accessory for any occasion.",
+        price: 39.95,
+        category: "fashion",
+        images: [
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1694264320/ecommerce/Wallet_1_xg89vp.png",
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1694264326/ecommerce/Wallet_2_pbwce6.png",
+        ],
+    },
+    {
+        id: 10,
+        name: "Gaming Keyboard Corsair",
+        description:
+            "Dominate your gaming competition with the Corsair gaming keyboard. It features customizable RGB lighting, mechanical key switches, and programmable macro keys for the ultimate gaming experience.",
+        price: 129.99,
+        category: "electronics",
+        images: [
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1694264508/ecommerce/keyboard_2_kuonl0.png",
+            "https://res.cloudinary.com/dizjoy6v5/image/upload/v1694264508/ecommerce/keyboard_1_cpffrd.png",
+        ],
+    },
 ]
 export default function handler(req, res) {
     res.status(200).json(array)
