@@ -80,7 +80,7 @@ const array = [
         description:
             "Achieve inner peace and flexibility with this high-quality yoga mat. It's designed for comfort and durability, making it the perfect companion for your yoga practice.",
         price: 29.99,
-        category: "sports",
+        category: "sport",
         images: [
             "https://res.cloudinary.com/dizjoy6v5/image/upload/v1694264182/ecommerce/yoga_1_tyluvq.png",
             "https://res.cloudinary.com/dizjoy6v5/image/upload/v1694264179/ecommerce/yoga_2_pygr2y.png",
